@@ -4,7 +4,7 @@ from tkinter import filedialog
 
 location = filedialog.askopenfilename()
 full_text =""
-
+"COMENTARIO DE MODIFICACION"
 with open(location, 'rb') as book:
 
 	try:
